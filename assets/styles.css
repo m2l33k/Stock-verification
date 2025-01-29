@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lato', serif;
+    background: url('https://p4.wallpaperbetter.com/wallpaper/761/77/170/strings-balls-coils-needles-wallpaper-preview.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    position: absolute; 
+    top: 5px; 
+    left: 5px; 
+    width: 250px; 
+    height: auto; 
+}
+.container {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-top: 100px; 
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+input[type="file"],
+input[type="text"],
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    width: 250px; /* Adjust width as needed */
+}
+
+#instructions {
+    text-align: center; 
+    padding: 20px;
+    /* border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    /* border-radius: 10px; /* Optional: Add rounded corners */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    /*background-color: #f9f9f9; /* Optional: Add a background color */
+    display: flex;
+    top: 50%; /* Position the top of the div at 50% of the viewport height */
+    left: 50%; 
+    align-items: center;
+    justify-content: center;
+  }
+button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#output {
+    font-weight: bold;
+    margin-top: 20px;
+    color: green;
+}
+#credit-container {
+    position: fixed; /* Positions the container relative to the viewport */
+    bottom: 10px; /* Adjusts the distance from the bottom */
+    left: 50%; /* Positions the container horizontally at the center */
+    transform: translateX(-50%); /* Centers the container by shifting it left by 50% of its width */
+    text-align: center; /* Centers the text within the container */
+  }
+  
+  #credit {
+    margin: 5px 0; /* Adds some spacing between the lines */
+    font-size: 25px; /* Adjust the font size as needed */
+    color : black ;
+  }
+p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
